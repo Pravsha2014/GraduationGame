@@ -7111,8 +7111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89d6a78f543b5c9499e2fabf902cf4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinTemplate: {fileID: 7431496018152910136, guid: dd53b1df337915c4f9dbafee0ef899be, type: 3}
-  _CoinSpawner: {fileID: 1921881460}
+  _coinTemplate: {fileID: 2832073277896412072, guid: dd53b1df337915c4f9dbafee0ef899be, type: 3}
   _frequencyOfCoinOccurrence: 1
 --- !u!1 &1964951008
 GameObject:
