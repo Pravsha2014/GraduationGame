@@ -36,7 +36,7 @@ public class GamePanel : MonoBehaviour
 
     public void ShowResult()
     {
-        _endText.text = "Game Over\nYour total lifetime: " + GetStringRoundedLifeTime() + "\nÍou were able to collect coins: " + _walletText.text;
+        _endText.text = "Game Over\nYour total lifetime: " + GetStringRoundedLifeTime() + "\nYou were able to collect coins: " + _walletText.text;
     }
 
     private string GetStringRoundedLifeTime() => Math.Round(_lifeTime, _numbersAfterPoint).ToString();
